@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@theme {
+  --font-oswald: "Oswald", "sans-serif";
+}
+
+.nav-items {
+  @apply border border-black rounded-lg px-2 m-2 hover:shadow-lg;
+}
