@@ -14,6 +14,19 @@ body {
   @apply border border-black rounded-lg px-2 m-2 hover:shadow-lg;
 }
 
+.main-heading {
+  @apply text-4xl font-oswald font-bold capitalize text-center
+}
+
 .button-design {
   @apply border-2 border-fuchsia-600 py-2 px-4 rounded-lg capitalize cursor-pointer hover:border-white;
+}
+
+.scrollbar-hide::--webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }

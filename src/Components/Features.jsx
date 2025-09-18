@@ -12,7 +12,7 @@ import { Card } from "./Card"
 export const Features = () => {
     return (
         <div className="my-9">
-            <h1 className="text-4xl font-oswald font-bold capitalize text-center">why choose us?</h1>
+            <h1 className="main-heading">why choose us?</h1>
             <div className="flex flex-col md:flex-row m-4">
                 <Card />
                 <Card />
