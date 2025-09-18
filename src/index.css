@@ -13,3 +13,7 @@ body {
 .nav-items {
   @apply border border-black rounded-lg px-2 m-2 hover:shadow-lg;
 }
+
+.button-design {
+  @apply border-2 border-fuchsia-600 py-2 px-4 rounded-lg capitalize cursor-pointer hover:border-white;
+}

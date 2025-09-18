@@ -3,10 +3,13 @@ import { useState } from "react"
 export const Navbar = () => {
     const [open, setOpen] = useState(false)
     return (
-        <nav className="flex justify-between p-2 shadow-lg stick-top-0 font-oswald">
+        <nav className="flex justify-between p-2 shadow-lg stick top-0 font-oswald">
             <img src="./vite.svg" alt="logo" />
-            <ul className={`${open ? "opacity-0 translate-y-0" : "opactity-100"} absolute left-0 top-16 w-full bg-white shadow-lg flex flex-col sm:flex-row capitalize text-fuchsia-800 md:static md:flex md:shadow-none md:w-auto
-             transition duration-700 ease-in-out`}>
+            <ul className={`${open ? "opacity-100 -translate-y-4" : "opacity-0 -translate-y-5"} 
+                    absolute left-0 top-16 w-full bg-white 
+                    shadow-lg flex flex-col sm:flex-row capitalize
+                    text-fuchsia-800 md:static md:flex md:shadow-none md:opacity-100 md:translate-y-0
+                    md:w-auto transition duration-700 ease-in-out`}>
                 <li className="nav-items"><a href="#">Home</a></li>
                 <li className="nav-items"><a href="#">features</a></li>
                 <li className="nav-items"><a href="#">pricing</a></li>
